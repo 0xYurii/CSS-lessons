@@ -24,10 +24,3 @@ Here's a list of the current lessons/projects in this repository:
 
 ---
 
-## Connect with Me! 👋
-
-I'm always learning and happy to connect!
-
-* **GitHub:** [YuriKhan17](https://github.com/YuriKhan17)
-
----
