@@ -18,8 +18,8 @@ Here's a list of the current lessons/projects in this repository:
     * *Files:* `Lesson 1/index.html`, `Lesson 1/style.css`
 
 
-* **Lesson 2: Flexbox Fundamentals**
-    * *Description:* Exploring the basics of Flexbox for responsive layouts. (Add more details as you build it!)
+* **Lesson 2: Box Model Fundamentals**
+    * *Description:* Exploring the basics of box models for responsive layouts.
     * *Files:* `Lesson 2/index.html`, `Lesson 2/style.css` 
 
 ---
