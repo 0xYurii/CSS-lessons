@@ -20,7 +20,12 @@ Here's a list of the current lessons/projects in this repository:
 
 * **Lesson 2: Box Model Fundamentals**
     * *Description:* Exploring the basics of box models for responsive layouts.
-    * *Files:* `Lesson 2/index.html`, `Lesson 2/style.css` 
+    * *Files:* `Lesson 2/index.html`, `Lesson 2/style.css`
+
+
+* **Lesson 3: Typography**
+    * *Description:*  the art and technique of arranging type on a page.
+    *  *Files:* `Lesson 3/index.html`, `Lesson 3/style.css`
 
 ---
 
