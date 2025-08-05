@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+/* || RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* || GENERAL STYLES */
+body {
+    font: 1.5rem "Nunito", sans-serif;
+    min-height: 100vh;
+
+    background-color: #475569;
+    background-image: radial-gradient(whitesmoke,#475569);
+    display: flex;
+    flex-direction: column;
+}
+
+header,nav,main,footer {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+
+header, footer {
+    position: sticky;
+    background-color: #1e293b;
+    color: whitesmoke;
+}
+
+header {
+    top: 0%;
+}
+
+nav {
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    border-bottom: 2px solid #1e293b;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    bottom: 0%;
+}
+
+/* || MEDIA QUERIES */
+@media screen and (min-width:576px) {
+    body {
+        background-color: green;
+        background-image: radial-gradient(whitesmoke, green);
+
+    }
+    nav{
+        display: none;
+    }
+}
+/* || MEDIUM */
+@media screen and (min-width:768px) {
+    body {
+        background-color: blue;
+        background-image: radial-gradient(whitesmoke, blue);
+    }
+    header, footer {
+        padding: 1rem;
+    }
+}
+/* || large */
+@media screen and (min-width:992px) {
+    body {
+        background-color: red;
+        background-image: radial-gradient(whitesmoke, red);
+    }
+    header, footer {
+        padding: 2rem;
+    }
+}
+
+/* || XL */
+@media screen and (min-width:1200px) {
+    body {
+        background-color: purple;
+        background-image: radial-gradient(whitesmoke, purple);
+    }
+    header, footer {
+        padding: 3rem;
+    }
+}
+/* || MOBILE DEVICE LANDSCPE */
+@media screen and (max-height:425px) and (min-aspect-ratio: 7/4) {
+    body {
+        background-color: yellow;
+        background-image: radial-gradient(whitesmoke, yellow);
+    }
+    h1,h2{
+        font-size: 2rem;
+    }
+
+    nav{
+        display: none;
+    }
+}
