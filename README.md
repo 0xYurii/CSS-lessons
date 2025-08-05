@@ -32,13 +32,6 @@ I'm a first-year Computer Science student passionate about web development. This
 I'm currently following beginner-friendly tutorials, such as:
 - [CSS Tutorial – Full Course for Beginners](https://youtu.be/OXGznpKZ_sA?si=jqHvncs6jMImqo1t)
 
-## Contributing
-
-This is a personal learning project, but suggestions and improvements are welcome! Feel free to open an issue or pull request.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ---
 Happy coding! 🚀
