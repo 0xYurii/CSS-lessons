@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+/* || RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+/* || UTILITY CLASSES */
+.nowrap {
+  white-space: nowrap;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* || GENERAL STYLES */
+body {
+  font: 1.5rem "Nunito", sans-serif;
+  min-height: 100vh;
+
+  background-color: #475569;
+  background-image: radial-gradient(whitesmoke, #475569);
+  display: flex;
+  flex-direction: column;
+}
+
+
+header,
+footer {
+  position: sticky;
+  background-color: #1e293b;
+  color: whitesmoke;
+  text-align: center;
+}
+
+header {
+  top: 0;
+}
+
+nav {
+  background-color: #fff;
+  padding: 0.5rem;
+  border-bottom: 2px solid #000;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+nav a, nav a:visited {
+  color: #1e293b;
+}
+nav a:hover,nav a:focus {
+  color: #475569;
+}
+
+footer {
+  bottom: 0;
+}
+
+/* || PROFILE CARD STYLES */
+.card{
+    scroll-margin-top: 8rem;
+    width: min(100%, 350px);
+    background-color: #cbd5e1;
+    border:2px solid #1e293b;
+    border-radius: 15px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card figure {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #1e293b;
+}
+.card figcaption {
+    font-weight: bolder;
+    color: #1e293b;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+/* || SMALL */
+@media screen and (min-width: 576px) {
+    main{
+        justify-content: center;
+        flex-flow: row wrap;
+        padding: 1rem;
+
+    }
+    .card {
+        width:min(100%, 400px);
+    }
+    
+}
+
+/* || MEDIUM */
+@media screen and (min-width: 768px) {
+    nav{
+        display: none;
+    }
+    .card {
+        width: min(100%, 325px);
+    }
+    .card figure {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+/* || LARGE */
+@media screen and (min-width: 992px) {
+    body {
+        background-color: #1e293b;
+        background-image: radial-gradient(whitesmoke, #1e293b);
+    }
+    
+    main {
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+    }
+    
+    .card {
+        width: min(100%, 300px);
+    }
+    
+    .card figure {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* || XL  */
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: #0f172a;
+        background-image: radial-gradient(whitesmoke, #0f172a);
+    }
+    
+    main {
+        flex-direction: row;
+        justify-content: center;
+        gap: 3rem;
+    }
+    
+    .card {
+        width: min(100%, 350px);
+    }
+    
+    .card figure {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* || MOBILE DEVICE LANDSCAPE  */
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
+  body {
+    background-color: dodgerblue;
+    background-image: radial-gradient(whitesmoke, dodgerblue);
+  }
+
+  h1,
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  nav {
+    display: none;
+  }
+}
