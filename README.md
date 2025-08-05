@@ -1,11 +1,45 @@
 # CSS Lessons and Small Projects 🎨
 
-This repository is where I'm storing my practice files and small projects as I learn CSS. It's a collection of exercises and mini-demos to help me understand core CSS concepts.
+Welcome! This repository contains my personal CSS practice files and mini-projects as I learn and explore front-end development.
 
-## About This Repo
+## About
 
-As a first-year Computer Science student, I'm constantly learning and experimenting. This repository serves as a personal workbook and portfolio to track my progress in front-end development, specifically focusing on CSS.
+I'm a first-year Computer Science student passionate about web development. This repo is my digital workbook—a place to experiment, track progress, and showcase what I'm learning about CSS.
 
-I'm currently following a beginner-friendly tutorial (like [
-CSS Tutorial – Full Course for Beginners ](https://youtu.be/OXGznpKZ_sA?si=jqHvncs6jMImqo1t)) and building out various examples.
+## What You'll Find Here
+
+- **Practice Exercises:** Small snippets and demos focusing on specific CSS concepts (selectors, layouts, animations, etc.).
+- **Mini Projects:** Simple web pages and components built to reinforce my understanding.
+- **Notes & Resources:** Occasional notes or links to helpful tutorials.
+
+## Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/0xYurii/css-lessons.git
+   ```
+2. **Open any HTML file** in your browser to view the demos.
+3. **Edit and experiment** with the CSS files to see how changes affect the layout and style.
+
+## Learning Goals
+
+- Master core CSS concepts (selectors, box model, positioning, flexbox, grid, etc.)
+- Build visually appealing and responsive layouts
+- Understand how to structure and organize CSS for small projects
+
+## Resources
+
+I'm currently following beginner-friendly tutorials, such as:
+- [CSS Tutorial – Full Course for Beginners](https://youtu.be/OXGznpKZ_sA?si=jqHvncs6jMImqo1t)
+
+## Contributing
+
+This is a personal learning project, but suggestions and improvements are welcome! Feel free to open an issue or pull request.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+Happy coding! 🚀
 
